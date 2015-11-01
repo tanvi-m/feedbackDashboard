@@ -1,8 +1,8 @@
- .liquidFillGaugeText { font-family: Helvetica; font-weight: bold; }
-            path {  
+.liquidFillGaugeText { font-family: Helvetica; font-weight: bold; }
+path {  
         stroke: #fff; 
     }
-    path:hover {  
+path:hover {  
         opacity:0.9; 
     }
     rect:hover {  
