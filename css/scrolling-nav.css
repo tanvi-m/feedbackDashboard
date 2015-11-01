@@ -43,16 +43,41 @@ html {
     background: #fff;
 }
 
-.versions-section {
+.platforms-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #eee;
 }
 
-.platforms-section {
+.quote-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #eee;
+}
+
+#backquote {
+    background-image: url(http://typespiration.com/wp-content/themes/typespiration/images/quote.png); 
+    background-position: 10px 10%; b
+    ackground-repeat: no-repeat no-repeat; 
+    padding: 150px 0;
+}
+
+#quote {
+    color: #f2f2f2; 
+    background: #ff4a4a; 
+    font-size: 75px; 
+    line-height: 74px; 
+    font-weight: 700; 
+    margin: 0 5px 24px; 
+    float: left; 
+    padding: 10px; 
+    margin: 0 5px 24px; 
+    font-family: 'Libre Baskerville', serif;
+}
+
+#punchline {
+    background: #f2f2f2; 
+    color: #ff4a4a;
 }
