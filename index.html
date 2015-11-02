@@ -279,7 +279,7 @@
                                         .attr("height", function(d) { return hGDim.h - y(d[1]); })
                                         .attr('fill',barColor)
                                         .on("mouseover",mouseover)// mouseover is defined below.
-                                        .on("mouseout",mouseout);// mouseout is defined below.
+                                        .on("mouseout",mouseout);// mouseout is defined below.x
                                                             
                                     //Create the frequency labels above the rectangles.
                                     bars.append("text").text(function(d){ return d3.format(",")(d[1])})
@@ -300,8 +300,8 @@
                                                         
                                     function mouseout(d) {    // utility function to be called on mouseout.
                                                             // reset the pie-chart and legend.    
-                                        pC.update(tF);
-                                        //leg.update(tF);
+                                        pC.update(categTot);
+                                        //leg.update(categTot);
                                     }
                                                         
                                     // create function to update the bars. This will be used by pie-chart.
