@@ -82,9 +82,10 @@
                     <a class="btn btn-lg btn-danger page-scroll" href="#daily">Explore More!</a>
 
                     <svg id="fillgauge1" width="50%" height="200" onclick="gauge1.update(NewValue());"></svg>
-                    <svg id="fillgauge1" width="50%" height="200" onclick="gauge1.update(NewValue());"></svg>
+                    <svg id="fillgauge2" width="50%" height="200" onclick="gauge2.update(NewValue());"></svg>
                     <script language="JavaScript">
                         var gauge1 = loadLiquidFillGauge("fillgauge1", 120);
+                        var gauge2 = loadLiquidFillGauge("fillgauge2", 90);
 
                         function NewValue(){
                             if(Math.random() > .5){
