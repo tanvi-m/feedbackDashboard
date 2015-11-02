@@ -189,6 +189,8 @@
                                                     
                                 fData.forEach(function(d) {d.total = d.freq.happy + d.freq.sad;});
 
+
+
                                 function pieChart(pD) {
                                     var pC ={},    pieDim ={w:250, h: 250};
                                     pieDim.r = Math.min(pieDim.w, pieDim.h) / 2;
@@ -237,6 +239,8 @@
                                     }    
                                     return pC;
                                 }
+
+
                                                     
                                 
                                 function histoGram(fD) {
@@ -291,13 +295,13 @@
                                                                
                                     // call update functions of pie-chart and legend.    
                                         pC.update(nD);
-                                        leg.update(nD);
+                                        //leg.update(nD);
                                     }
                                                         
                                     function mouseout(d) {    // utility function to be called on mouseout.
                                                             // reset the pie-chart and legend.    
                                         pC.update(tF);
-                                        leg.update(tF);
+                                        //leg.update(tF);
                                     }
                                                         
                                     // create function to update the bars. This will be used by pie-chart.
