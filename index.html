@@ -85,7 +85,8 @@
                     <svg id="fillgauge2" width="50%" height="200" onclick="gauge2.update(NewValue());"></svg>
                     <script language="JavaScript">
                         var gauge1 = loadLiquidFillGauge("fillgauge1", 120);
-                        var gauge2 = loadLiquidFillGauge("fillgauge2", 90);
+                        config1 = liquidFillGaugeDefaultSettings();
+                        var gauge2 = loadLiquidFillGauge("fillgauge2", 90, config1);
 
                         function NewValue(){
                             if(Math.random() > .5){
